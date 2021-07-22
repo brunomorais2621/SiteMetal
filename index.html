@@ -1,0 +1,61 @@
+<!DOCTYPE html>                                                                              <!-Não é um elemento, apenas diz ao navegador que se trata de um HTML->
+<html lang="pt-br">                                                                          <!-Todo o conteúdo deve estar dentro deste elemento->
+    <head>                                                                                   <!-Metadados->
+        <title>Minha Página</title>                                                          <!-Título na aba do navegador->
+        <meta charset="utf-8">                                                               <!-Como o navegador fará o encode->
+
+        <script type="text/javascript" src="JS/main.js"></script>
+
+        <link rel="stylesheet" href="style.css">                                             <!-O valor stylesheet diz ao navegador qual tipo de arquivo estou adicionando e o href a referencia do arquivo no caso um CSS->
+    </head>
+    <body>
+        <button type="button" onclick="botao()">Clique aqui se você é metaleiro</button>     <!-Aqui o onclick vai me dizer qual função java script vai ser excutada->
+        <header>                                                                             <!-Cabeçalho da página ou de uma seção da página->
+
+            <img src="homer.jpg" class="top_img">                                            <!-Na imagem src é a referência do local do arquivo->
+               <h1 id="title">Site Heavy Metal</h1>                                          <!(H1)Importância do título->
+        </header>
+    <section>                                                                                <!-seção genérica de conteúdo->
+        <header>
+                <h2 class="subtitle">A história do heavy metal</h2>                          <!(H2)-> <!-O id e class servem para identificar elementos porem só posso ter um id->
+        </header>
+            <article class="post">                                                           <!-Conteúdo->
+        <header>
+                <h3 class="post_title">O ínicio</h3>                                         <!(H3)->
+
+                <img src="black-sabbath-1970.jpg"class="post_img">
+        </header>
+        <p class="text">                                                                     <!-Pode suportar texto, imagens, vídeos por exemplo->
+         Desde 1869 quando o cientista Russo Dmitri Mendeleev publicou a primeira tabela periódica dos elementos, 23 metais foram considerados extremamente pesados. O escritor William Burroughs fez sua primeira referência ao termo metal pesado em 1959 no trecho:"Para mim, o metal é a expressão máxima do vício, que há algo realmente metálico no vício". Os caras da banda pioneira  de rock Blue Cheer eram chamados de heavy metal kids em referência aos personagens dos livros de Burroughs. Mas o termo heavy metal foi usado pela primeira vez em uma música no de 1968 em Born to be Wild do Steppenwolf. Geezer Butler conta que alguém chamou o <a href= "https://www.blacksabbath.com/" target ="blank" class="link"> Black Sabbath </a>de heavy metal como uma forma de insulto em uma crítica que dizia: "Isso não é música", soa mais como um monte de metais pesados explodindo no chão". alguém na inglaterra adotou essa expressão e todo mundo passou a usar. O primeiro disco do Black Sabbath em 1970 representou o nascimento do heavy metal. O sabbath foi a primeira banda a personificar tudo o que acabou se tornando heavy metal.                                                               <!-Observe que utilizei a tag a para colocar um link externo, href para referenciar o link e target blank para abrir o link em uma nova aba->
+        </p>
+
+        <header>
+               <h3 class="post_title">New Wave Of British Heavy Metal</h3>
+
+               <img src="maiden.jpg" class="post_img">
+        </header>
+        <p class="text">
+            Além do Sabbath bandas como Led Zeppelin e Deep Purple também tiveram grande influência na formação do heavy metal além do harf rock, muitos as chama de "Os três velhos deuses do rock".
+            Não muito tempo depois que o Sabbath apresentou os ingtredientes básicos do heavy metal às massas, outras bandas pesadas como o Judas Priest, Kiss e AC/DC conceberam suas próprias fórmulas para a consagração do gênero.
+            O Black Sabbath foi a primeira banda importante a a sair da Inglaterra, contudo, o Judas Priest não ficava muito atrás, a banda se formou em 1969.
+            O visual motoqueiro do judas começou a ganhar força na época de Hell Bent for Leather mas foi com o disco British Steel que a banda alcançou o status de deuses do Metal. 
+            Inspiradas por Judas Priest e Black Sabbath, bandas como Iron Maiden, Saxon, Def Lepard e várias outras do Reino Unido lançaram o movimento New Wave of British Heavy Metal ou NWOBHM.
+            A influência da NWOBHM se espalhou pelo Reino Unido e depois pela Europa inspirando bandas como as alemãs Accept e Scorpion, a dinamarquesa Mercyful Fate, além de uma pequena banda americana chamada Metallica.
+
+        </p>
+             </article>
+    </section>
+    <footer>                                                                                  <!-Rodapé da página onde colocarei as informações de contato por exemplo->
+        <ul>                                                                                  <!- ol significa lista ordenada, temos também ul de lista não ordenada->
+        <li class="lista">                                                                    <!-Listas agrupam itens e podem ser ordenadas ou não, neste acso fiz uma lista de apenas 2 itens->
+        <a href="https://www.youtube.com/watch?v=MoE_A8x0uMc" target="blank" class="link"> Playlist Black Sabbath YouTube</a>
+        </li>
+        <li class="lista">
+            <a href="https://www.youtube.com/watch?v=fVwtoNspe44" target="blank" class="link" >Playlist NWOBHM YouTube</a>
+        </li>
+        </ul>
+
+    </footer>
+            
+    </body>
+</html>
